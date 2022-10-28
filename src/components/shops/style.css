@@ -1,0 +1,28 @@
+
+ .box {
+  background-color: #f6f9fc;
+  margin: 15px 0;
+  padding: 5px 10px;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+ .img {
+  width: auto;
+  height: auto;
+}
+ .box:hover {
+  background-color: #9dc2ff;
+  box-shadow: rgba(255, 255, 255, 0.488) 0px 4px 16px;
+ }
+.grid1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 32px;
+}
+ .product img {
+  width: 100%;
+  height: 90%;
+}
+ .product {
+  transition: 0.5s;
+}
